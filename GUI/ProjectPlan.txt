@@ -1,0 +1,40 @@
+design   :
+	   GUI;
+
+variables:
+   	   1.(for parent class):
+			 String Name;int Id;int Attendence; int Quiz1; int Quiz2;
+			 int perfomance;int int float MidCal;
+	    2.(for child class):
+			int Final; int FinalTotal; float FinalCal; float Result ;
+
+class    :
+	   MidExam(parent),FinalExam(child),StudentManagement(main);
+
+      	 ***** use:
+               1 inheritance
+               2.polymarphism (compile time, run time)
+	       3. Encapsulation 
+      	 ***** use:
+	       1.Abstraction
+	       2. Interface 
+	       3. Exception Handing 
+
+default  :
+	   name,id;
+
+user 
+input    :
+	   attendence;performance;Quiz1;Quiz2;
+
+calculate:
+	   mid exam 40%=
+	   (attendence+performance+Quiz1+Quiz2)*0.4;
+
+	   final exam 60%=
+	   (attendence+performance+Quiz1+Quiz2)*0.6;
+
+	   result=mid exam 40%+final exam 60%
+store    :
+	   in file...
+
